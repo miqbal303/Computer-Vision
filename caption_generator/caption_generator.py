@@ -16,7 +16,7 @@ model = genai.GenerativeModel('gemini-pro')
 def query_blip_image_captioning(filename):
     try:
         API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
-        headers = {"Authorization": "Bearer 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"}
+        headers = headers = {"Authorization": "Bearer {Auth_Token}"}  # Authorization Token
         response = requests.post(API_URL, headers=headers, data=filename)
         return response.json()
     except Exception as e:
@@ -26,7 +26,7 @@ def query_blip_image_captioning(filename):
 def query_mixtral(payload):
     try:
         API_URL = "https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
-        headers = {"Authorization": "Bearer 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"}
+        headers = {"Authorization": "Bearer {Auth_Token}"}  # Authorization Token
         response = requests.post(API_URL, headers=headers, json=payload)
         return response.json()
     except Exception as e:
