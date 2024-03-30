@@ -2,5 +2,5 @@ google-generativeai
 python-dotenv
 ipython==8.16.1
 streamlit
-# python==3.11 for venv
 ipykernel
+pymongo
