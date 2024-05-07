@@ -130,6 +130,8 @@ env.bak/
 venv.bak/
 Caption3.11/
 gemini3.11/
+CV/
+CV
 
 # Spyder project settings
 .spyderproject
@@ -165,3 +167,8 @@ cython_debug/
 # Folder containing
 images/
 image/
+output/
+
+
+# file
+test.py
