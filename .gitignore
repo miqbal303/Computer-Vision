@@ -168,6 +168,8 @@ cython_debug/
 images/
 image/
 output/
+videos/
+model_weight/
 
 
 # file
