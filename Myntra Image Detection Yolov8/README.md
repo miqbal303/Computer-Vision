@@ -13,9 +13,9 @@ I have used Yolov8l for custom training with Male Female data. I did training in
 
 1.Setting Up Google Colab
 
-2.YOLOV8 Installation
+2.Mounting Google Drive
 
-3.Mounting Google Drive
+3.YOLOV8 Installation
 
 4.Create config.yaml (dataset config file) (YOLOV8 format)
 
