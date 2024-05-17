@@ -29,4 +29,16 @@ I have used Yolov8l for custom training with Male Female data. I did training in
 ![confusion_matrix](confusion_matrix.png)
 
 
+![PR_curve](PR_curve.png)
+
+
 ![val_batch0_labels](val_batch0_labels.jpg)
+
+
+# Test Data
+
+![image_524](image_524.jpg)
+
+![image_9](image_9.jpg)
+
+
