@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/Myntra_Classifier/train
+val: /content/drive/MyDrive/Myntra_Classifier/val
+
+nc : 2
+
+names : ["Male","Female"]
