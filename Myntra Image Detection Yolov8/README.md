@@ -26,7 +26,7 @@ I have used Yolov8l for custom training with Male Female data. I did training in
 7.Run Inference With Custom YOLOv8 Object Detector Trained Weights
 
 
-![image_9](image/README/image_9.jpg)
+![confusion_matrix](confusion_matrix.png)
 
 
-![image_524](image/README/image_524.jpg)
+![val_batch0_labels](val_batch0_labels.jpg)
